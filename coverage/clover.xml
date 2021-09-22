@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1632329465062" clover="3.2.0">
-  <project timestamp="1632329465062" name="All files">
+<coverage generated="1632330873854" clover="3.2.0">
+  <project timestamp="1632330873854" name="All files">
     <metrics statements="82" coveredstatements="82" conditionals="30" coveredconditionals="30" methods="21" coveredmethods="21" elements="133" coveredelements="133" complexity="0" loc="82" ncloc="82" packages="1" files="5" classes="5"/>
     <file name="App.tsx" path="/Users/psd/Documents/HWConverter/App.tsx">
       <metrics statements="27" coveredstatements="27" conditionals="14" coveredconditionals="14" methods="12" coveredmethods="12"/>
