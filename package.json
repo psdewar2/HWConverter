@@ -1,0 +1,68 @@
+{
+  "name": "hwconverter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone 12 Pro Max\"",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postinstall": "patch-package",
+    "coverage": "jest --coverage",
+    "coverage:html": "jest --coverage && open coverage/lcov-report/index.html"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "react": "17.0.2",
+    "react-native": "0.65.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^27.0.2",
+    "@types/react-native": "^0.65.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.2.1",
+    "eslint": "^7.14.0",
+    "jest": "^27.2.1",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "setupFiles": [
+      "./jestSetup.ts"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}

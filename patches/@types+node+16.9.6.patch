@@ -1,0 +1,31 @@
+diff --git a/node_modules/@types/node/globals.d.ts b/node_modules/@types/node/globals.d.ts
+index ae974db..9eb9bc0 100755
+--- a/node_modules/@types/node/globals.d.ts
++++ b/node_modules/@types/node/globals.d.ts
+@@ -64,16 +64,16 @@ interface AbortSignal {
+     readonly aborted: boolean;
+ }
+ 
+-declare var AbortController: {
+-    prototype: AbortController;
+-    new(): AbortController;
+-};
+-
+-declare var AbortSignal: {
+-    prototype: AbortSignal;
+-    new(): AbortSignal;
+-    // TODO: Add abort() static
+-};
++// declare var AbortController: {
++//     prototype: AbortController;
++//     new(): AbortController;
++// };
++
++// declare var AbortSignal: {
++//     prototype: AbortSignal;
++//     new(): AbortSignal;
++//     // TODO: Add abort() static
++// };
+ //#endregion borrowed
+ 
+ //#region ArrayLike.at()

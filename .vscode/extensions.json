@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "coenraads.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "miclo.sort-typescript-imports",
+    "msjsdiag.vscode-react-native",
+    "vscode-icons-team.vscode-icons",
+    "yzhang.markdown-all-in-one"
+  ]
+}

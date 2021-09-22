@@ -1,0 +1,6 @@
+module Pods_HWConverter {
+  umbrella header "Pods-HWConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

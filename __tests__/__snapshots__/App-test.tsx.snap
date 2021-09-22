@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginTop": 32,
+            "paddingHorizontal": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 40,
+              "fontWeight": "600",
+            }
+          }
+        >
+          HW Converter
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "marginVertical": 16,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Imperial button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 4,
+                  "elevation": 3,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 32,
+                  "paddingVertical": 12,
+                },
+                Object {
+                  "backgroundColor": "lightgray",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              imperial
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="Metric button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 4,
+                  "elevation": 3,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 32,
+                  "paddingVertical": 12,
+                },
+                Object {
+                  "backgroundColor": "white",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "200",
+                }
+              }
+            >
+              metric
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 32,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Measurements
+        </Text>
+        <View
+          style={
+            Object {
+              "marginVertical": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "200",
+              }
+            }
+          >
+            Height
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "baseline",
+                  "flexDirection": "row",
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "margin": 8,
+                }
+              }
+            >
+              <TextInput
+                keyboardType="decimal-pad"
+                maxLength={10}
+                onChangeText={[Function]}
+                placeholder="0"
+                style={
+                  Object {
+                    "fontSize": 64,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 48,
+                    "fontWeight": "300",
+                    "marginLeft": 8,
+                  }
+                }
+              >
+                ft
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "baseline",
+                  "flexDirection": "row",
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "margin": 8,
+                }
+              }
+            >
+              <TextInput
+                keyboardType="decimal-pad"
+                maxLength={10}
+                onChangeText={[Function]}
+                placeholder="0"
+                style={
+                  Object {
+                    "fontSize": 64,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 48,
+                    "fontWeight": "300",
+                    "marginLeft": 8,
+                  }
+                }
+              >
+                in
+              </Text>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "200",
+              }
+            }
+          >
+            Weight
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "baseline",
+                  "flexDirection": "row",
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "margin": 8,
+                }
+              }
+            >
+              <TextInput
+                keyboardType="decimal-pad"
+                maxLength={10}
+                onChangeText={[Function]}
+                placeholder="0"
+                style={
+                  Object {
+                    "fontSize": 64,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 48,
+                    "fontWeight": "300",
+                    "marginLeft": 8,
+                  }
+                }
+              >
+                lbs
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "marginVertical": 16,
+            }
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "margin": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Save
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "margin": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Clear
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
