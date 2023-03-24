@@ -8,7 +8,9 @@
 3. ios: `yarn ios`, android: `yarn android`
 4. 💯% code coverage! To run tests: `yarn coverage`
 
-## Notable features
+## Features
+
+![Height/Weight GIF](hw.gif)
 
 ### User
 
@@ -16,11 +18,11 @@
 ✅ Height (numeric keyboard input)  
 ✅ Units ("imperial (default)" and "metric" options)  
 ✅ Unit labels (lbs, ft, kg, m) are rendered to the right of the corresponding input fields.  
-✅ When the units selection is changed, the height and weight values are recalculated and the unit labels updated
+✅ When the units selection is changed, height and weight values are recalculated and unit labels are updated
 
 ### Dev
 
-✅ localStorage  
-✅ useReducer  
-✅ The code is well-typed  
+✅ Uses hooks like useReducer  
+✅ Leverages localStorage  
+✅ Built in TypeScript  
 ✅ 100% code coverage
